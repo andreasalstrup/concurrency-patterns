@@ -1,0 +1,16 @@
+go 1.21.1
+
+use (
+	./audit-thread
+	./channel
+	./channel/producer-consumer
+	./channel/wait
+	./channel/load-balancer
+	./closure
+	./conditional-variable
+	./loop
+	./mutex
+	./select
+	./sleep
+	./sleep/sleep-cancel
+)
